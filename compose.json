@@ -1,0 +1,29 @@
+{
+    "name": "glivers/rantab",
+    "description": "A lightweight PHP payment library supporting Stripe and Mpesa out of the box.",
+    "version": "0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [ "payment", "stripe", "mpesa", "rantab", "php" ],
+    "authors": [
+        {
+            "name": "Geoffrey Okongo",
+            "email": "hello@geokongo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rantab\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rantab\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
